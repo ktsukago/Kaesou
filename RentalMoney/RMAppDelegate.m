@@ -7,12 +7,20 @@
 //
 
 #import "RMAppDelegate.h"
+#import "Flurry.h"
+
 
 @implementation RMAppDelegate
 
+void uncaughtExceptionHandler(NSException *exception)
+{
+    [Flurry logError:@"Uncaught" message:@"Crash" exception:exception];
+}
+
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+    NSSetUncaughtExceptionHandler(&uncaughtExceptionHandler);
+    [Flurry startSession:@"VKJXD7BGNY8F77YSTFJ2"];
     return YES;
 }
 							
@@ -41,6 +49,11 @@
 - (void)applicationWillTerminate:(UIApplication *)application
 {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+}
+
+- (void)application:(UIApplication *)application didReceiveLocalNotification:(UILocalNotification *)notif
+{    
+    application.applicationIconBadgeNumber = notif.applicationIconBadgeNumber-1;
 }
 
 @end

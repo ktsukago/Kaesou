@@ -13,4 +13,13 @@
 #ifdef __OBJC__
     #import <UIKit/UIKit.h>
     #import <Foundation/Foundation.h>
+    #import <CoreData/CoreData.h>
+    #import "RMBaseViewController.h"
+    #import "Rental.h"
+    #import "UIImage+capture.h"
+    #import "UIImage+ImageEffects.h"
+    #import "RMRentalEntity.h"
+    #import "NSDate+dateString.h"
+    #import "UIScreen+rect.h"
+    #import "NSDictionary+URLEncoding.h"
 #endif

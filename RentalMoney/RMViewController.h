@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface RMViewController : UIViewController
+@interface RMViewController : RMBaseViewController
+
+@property (weak, nonatomic) IBOutlet UIButton *rendButton;
 
 @end

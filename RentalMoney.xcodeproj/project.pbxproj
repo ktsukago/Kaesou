@@ -7,6 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		912454E61899099E009DABCD /* RMRentalSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 912454E51899099E009DABCD /* RMRentalSegue.m */; };
+		912454E918991249009DABCD /* RMRentalAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 912454E818991249009DABCD /* RMRentalAnimationController.m */; };
+		912454ED189A4C00009DABCD /* RMInputViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 912454EC189A4BFF009DABCD /* RMInputViewController.m */; };
+		912454F2189B518D009DABCD /* 100.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 912454EE189B518D009DABCD /* 100.jpg */; };
+		912454F3189B518D009DABCD /* 500.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 912454EF189B518D009DABCD /* 500.jpg */; };
+		912454F4189B518D009DABCD /* 1000.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 912454F0189B518D009DABCD /* 1000.jpg */; };
+		912454F5189B518D009DABCD /* 10000.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 912454F1189B518D009DABCD /* 10000.jpg */; };
+		912454F8189B5B70009DABCD /* RMSubmitDateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 912454F7189B5B70009DABCD /* RMSubmitDateViewController.m */; };
+		916A33F0189CE83400C0C32B /* background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 916A33EF189CE83400C0C32B /* background@2x.png */; };
+		919B214118A14363004B30C0 /* shake@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 919B214018A14363004B30C0 /* shake@2x.png */; };
+		919B214318A14860004B30C0 /* setting@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 919B214218A14860004B30C0 /* setting@2x.png */; };
+		919B214618A1F0A3004B30C0 /* RMBlurDarkSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 919B214518A1F0A3004B30C0 /* RMBlurDarkSegue.m */; };
+		919B214A18A1F7F2004B30C0 /* RMConfigViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 919B214918A1F7F2004B30C0 /* RMConfigViewController.m */; };
+		919B214D18A293EB004B30C0 /* RMContactViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 919B214C18A293EB004B30C0 /* RMContactViewController.m */; };
+		919B215018A29984004B30C0 /* NSDictionary+URLEncoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 919B214F18A29984004B30C0 /* NSDictionary+URLEncoding.m */; };
+		919B215718A2A2C6004B30C0 /* libNendAd.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 919B215218A2A2C6004B30C0 /* libNendAd.a */; };
+		919B215818A2A2C6004B30C0 /* NADView_readme.txt in Resources */ = {isa = PBXBuildFile; fileRef = 919B215618A2A2C6004B30C0 /* NADView_readme.txt */; };
+		919B215A18A2A2FB004B30C0 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 919B215918A2A2FB004B30C0 /* Security.framework */; };
+		919B215C18A2A307004B30C0 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 919B215B18A2A307004B30C0 /* AdSupport.framework */; };
+		919B215E18A33DD7004B30C0 /* batsu.png in Resources */ = {isa = PBXBuildFile; fileRef = 919B215D18A33DD7004B30C0 /* batsu.png */; };
+		919B216218A3B536004B30C0 /* libFlurry_4.3.1.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 919B216118A3B536004B30C0 /* libFlurry_4.3.1.a */; };
+		919B216618A3EF07004B30C0 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 919B216518A3EF07004B30C0 /* SystemConfiguration.framework */; };
 		919C88951894CDAB00E6C5AA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 919C88941894CDAB00E6C5AA /* Foundation.framework */; };
 		919C88971894CDAB00E6C5AA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 919C88961894CDAB00E6C5AA /* CoreGraphics.framework */; };
 		919C88991894CDAB00E6C5AA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 919C88981894CDAB00E6C5AA /* UIKit.framework */; };
@@ -21,6 +43,43 @@
 		919C88B61894CDAB00E6C5AA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 919C88981894CDAB00E6C5AA /* UIKit.framework */; };
 		919C88BE1894CDAB00E6C5AA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 919C88BC1894CDAB00E6C5AA /* InfoPlist.strings */; };
 		919C88C01894CDAB00E6C5AA /* RentalMoneyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 919C88BF1894CDAB00E6C5AA /* RentalMoneyTests.m */; };
+		919C88CA18969FB800E6C5AA /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 919C88C918969FB800E6C5AA /* CoreData.framework */; };
+		919C88CE1896A06F00E6C5AA /* RMDBManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 919C88CD1896A06F00E6C5AA /* RMDBManager.m */; };
+		919C88D11896A0A600E6C5AA /* RentalMoney.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 919C88CF1896A0A600E6C5AA /* RentalMoney.xcdatamodeld */; };
+		919C88D71896A52B00E6C5AA /* RMRentalDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 919C88D61896A52B00E6C5AA /* RMRentalDataManager.m */; };
+		919C88DA1896AF4E00E6C5AA /* RMRentalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 919C88D91896AF4E00E6C5AA /* RMRentalViewController.m */; };
+		919C88DF1896AFBC00E6C5AA /* RMBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 919C88DE1896AFBC00E6C5AA /* RMBaseViewController.m */; };
+		919C88E31896B42400E6C5AA /* RMRentalListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 919C88E21896B42400E6C5AA /* RMRentalListViewController.m */; };
+		919C88E71896B6F500E6C5AA /* RMRentalCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 919C88E61896B6F500E6C5AA /* RMRentalCell.m */; };
+		919C88ED1896B9C200E6C5AA /* Rental.m in Sources */ = {isa = PBXBuildFile; fileRef = 919C88EC1896B9C200E6C5AA /* Rental.m */; };
+		919C88F01896BCF800E6C5AA /* maru.png in Resources */ = {isa = PBXBuildFile; fileRef = 919C88EF1896BCF800E6C5AA /* maru.png */; };
+		919C88F51898139000E6C5AA /* MCSwipeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 919C88F41898139000E6C5AA /* MCSwipeTableViewCell.m */; };
+		919C88FE1898237600E6C5AA /* check.png in Resources */ = {isa = PBXBuildFile; fileRef = 919C88F61898237600E6C5AA /* check.png */; };
+		919C88FF1898237600E6C5AA /* check@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 919C88F71898237600E6C5AA /* check@2x.png */; };
+		919C89001898237600E6C5AA /* clock.png in Resources */ = {isa = PBXBuildFile; fileRef = 919C88F81898237600E6C5AA /* clock.png */; };
+		919C89011898237600E6C5AA /* clock@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 919C88F91898237600E6C5AA /* clock@2x.png */; };
+		919C89021898237600E6C5AA /* cross.png in Resources */ = {isa = PBXBuildFile; fileRef = 919C88FA1898237600E6C5AA /* cross.png */; };
+		919C89031898237600E6C5AA /* cross@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 919C88FB1898237600E6C5AA /* cross@2x.png */; };
+		919C89041898237600E6C5AA /* list.png in Resources */ = {isa = PBXBuildFile; fileRef = 919C88FC1898237600E6C5AA /* list.png */; };
+		919C89051898237600E6C5AA /* list@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 919C88FD1898237600E6C5AA /* list@2x.png */; };
+		919C89071898D15700E6C5AA /* done.png in Resources */ = {isa = PBXBuildFile; fileRef = 919C89061898D15700E6C5AA /* done.png */; };
+		91AC92F7189D163800D30011 /* rendButton22x.png in Resources */ = {isa = PBXBuildFile; fileRef = 91AC92F6189D163800D30011 /* rendButton22x.png */; };
+		91AC92FA189D2A2800D30011 /* RMMoveUpSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 91AC92F9189D2A2800D30011 /* RMMoveUpSegue.m */; };
+		91AC92FD189D2AB600D30011 /* RMMoveUpAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 91AC92FC189D2AB600D30011 /* RMMoveUpAnimation.m */; };
+		91AC9301189D2D8D00D30011 /* UIImage+capture.m in Sources */ = {isa = PBXBuildFile; fileRef = 91AC9300189D2D8D00D30011 /* UIImage+capture.m */; };
+		91AC9304189D496100D30011 /* RMRentalEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 91AC9303189D496100D30011 /* RMRentalEntity.m */; };
+		91AC9307189D5A8A00D30011 /* NSDate+dateString.m in Sources */ = {isa = PBXBuildFile; fileRef = 91AC9306189D5A8A00D30011 /* NSDate+dateString.m */; };
+		91AC930C189D6A6B00D30011 /* thx@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 91AC930B189D6A6B00D30011 /* thx@2x.png */; };
+		91AC930F189D713800D30011 /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 91AC930E189D713800D30011 /* UIImage+ImageEffects.m */; };
+		91AC9312189DD35900D30011 /* UIScreen+rect.m in Sources */ = {isa = PBXBuildFile; fileRef = 91AC9311189DD35900D30011 /* UIScreen+rect.m */; };
+		91AC9314189DD7FE00D30011 /* DateBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 91AC9313189DD7FE00D30011 /* DateBackground.png */; };
+		91AC9316189DE35700D30011 /* topBackground.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 91AC9315189DE35700D30011 /* topBackground.jpg */; };
+		91AC9318189DE5A800D30011 /* rendButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 91AC9317189DE5A800D30011 /* rendButton@2x.png */; };
+		91B7CD37189FCFB50043B083 /* DateBackgroundEnd.png in Resources */ = {isa = PBXBuildFile; fileRef = 91B7CD36189FCFB50043B083 /* DateBackgroundEnd.png */; };
+		91B7CD3C189FDB7D0043B083 /* DateBackgroundEndHour@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 91B7CD38189FDB7D0043B083 /* DateBackgroundEndHour@2x.png */; };
+		91B7CD3D189FDB7D0043B083 /* DateBackgroundEndMonth@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 91B7CD39189FDB7D0043B083 /* DateBackgroundEndMonth@2x.png */; };
+		91B7CD3E189FDB7D0043B083 /* DateBackgroundEndNext@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 91B7CD3A189FDB7D0043B083 /* DateBackgroundEndNext@2x.png */; };
+		91B7CD3F189FDB7D0043B083 /* DateBackgroundEndSoon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 91B7CD3B189FDB7D0043B083 /* DateBackgroundEndSoon@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +93,41 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		912454E41899099E009DABCD /* RMRentalSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RMRentalSegue.h; path = Segue/RMRentalSegue.h; sourceTree = "<group>"; };
+		912454E51899099E009DABCD /* RMRentalSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RMRentalSegue.m; path = Segue/RMRentalSegue.m; sourceTree = "<group>"; };
+		912454E718991249009DABCD /* RMRentalAnimationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RMRentalAnimationController.h; path = Segue/RMRentalAnimationController.h; sourceTree = "<group>"; };
+		912454E818991249009DABCD /* RMRentalAnimationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RMRentalAnimationController.m; path = Segue/RMRentalAnimationController.m; sourceTree = "<group>"; };
+		912454EB189A4BFF009DABCD /* RMInputViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RMInputViewController.h; path = ViewController/RMInputViewController.h; sourceTree = "<group>"; };
+		912454EC189A4BFF009DABCD /* RMInputViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RMInputViewController.m; path = ViewController/RMInputViewController.m; sourceTree = "<group>"; };
+		912454EE189B518D009DABCD /* 100.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 100.jpg; path = Resources/Image/100.jpg; sourceTree = "<group>"; };
+		912454EF189B518D009DABCD /* 500.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 500.jpg; path = Resources/Image/500.jpg; sourceTree = "<group>"; };
+		912454F0189B518D009DABCD /* 1000.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 1000.jpg; path = Resources/Image/1000.jpg; sourceTree = "<group>"; };
+		912454F1189B518D009DABCD /* 10000.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 10000.jpg; path = Resources/Image/10000.jpg; sourceTree = "<group>"; };
+		912454F6189B5B70009DABCD /* RMSubmitDateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RMSubmitDateViewController.h; path = ViewController/RMSubmitDateViewController.h; sourceTree = "<group>"; };
+		912454F7189B5B70009DABCD /* RMSubmitDateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RMSubmitDateViewController.m; path = ViewController/RMSubmitDateViewController.m; sourceTree = "<group>"; };
+		916A33EF189CE83400C0C32B /* background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "background@2x.png"; path = "Resources/Image/background@2x.png"; sourceTree = "<group>"; };
+		919B214018A14363004B30C0 /* shake@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "shake@2x.png"; path = "Resources/Image/shake@2x.png"; sourceTree = "<group>"; };
+		919B214218A14860004B30C0 /* setting@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "setting@2x.png"; path = "Resources/Image/setting@2x.png"; sourceTree = "<group>"; };
+		919B214418A1F0A3004B30C0 /* RMBlurDarkSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RMBlurDarkSegue.h; path = Segue/RMBlurDarkSegue.h; sourceTree = "<group>"; };
+		919B214518A1F0A3004B30C0 /* RMBlurDarkSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RMBlurDarkSegue.m; path = Segue/RMBlurDarkSegue.m; sourceTree = "<group>"; };
+		919B214818A1F7F2004B30C0 /* RMConfigViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RMConfigViewController.h; path = ViewController/RMConfigViewController.h; sourceTree = "<group>"; };
+		919B214918A1F7F2004B30C0 /* RMConfigViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RMConfigViewController.m; path = ViewController/RMConfigViewController.m; sourceTree = "<group>"; };
+		919B214B18A293EB004B30C0 /* RMContactViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RMContactViewController.h; path = ViewController/RMContactViewController.h; sourceTree = "<group>"; };
+		919B214C18A293EB004B30C0 /* RMContactViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RMContactViewController.m; path = ViewController/RMContactViewController.m; sourceTree = "<group>"; };
+		919B214E18A29984004B30C0 /* NSDictionary+URLEncoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+URLEncoding.h"; path = "Extends/NSDictionary+URLEncoding.h"; sourceTree = "<group>"; };
+		919B214F18A29984004B30C0 /* NSDictionary+URLEncoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+URLEncoding.m"; path = "Extends/NSDictionary+URLEncoding.m"; sourceTree = "<group>"; };
+		919B215218A2A2C6004B30C0 /* libNendAd.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libNendAd.a; sourceTree = "<group>"; };
+		919B215318A2A2C6004B30C0 /* NADIconLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NADIconLoader.h; sourceTree = "<group>"; };
+		919B215418A2A2C6004B30C0 /* NADIconView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NADIconView.h; sourceTree = "<group>"; };
+		919B215518A2A2C6004B30C0 /* NADView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NADView.h; sourceTree = "<group>"; };
+		919B215618A2A2C6004B30C0 /* NADView_readme.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = NADView_readme.txt; sourceTree = "<group>"; };
+		919B215918A2A2FB004B30C0 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		919B215B18A2A307004B30C0 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		919B215D18A33DD7004B30C0 /* batsu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = batsu.png; path = Resources/Image/batsu.png; sourceTree = "<group>"; };
+		919B216018A3B536004B30C0 /* Flurry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Flurry.h; path = External/Flurry/Flurry.h; sourceTree = "<group>"; };
+		919B216118A3B536004B30C0 /* libFlurry_4.3.1.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libFlurry_4.3.1.a; path = External/Flurry/libFlurry_4.3.1.a; sourceTree = "<group>"; };
+		919B216318A3EEB5004B30C0 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		919B216518A3EF07004B30C0 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		919C88911894CDAB00E6C5AA /* RentalMoney.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RentalMoney.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		919C88941894CDAB00E6C5AA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		919C88961894CDAB00E6C5AA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,6 +147,58 @@
 		919C88BB1894CDAB00E6C5AA /* RentalMoneyTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RentalMoneyTests-Info.plist"; sourceTree = "<group>"; };
 		919C88BD1894CDAB00E6C5AA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		919C88BF1894CDAB00E6C5AA /* RentalMoneyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RentalMoneyTests.m; sourceTree = "<group>"; };
+		919C88C918969FB800E6C5AA /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		919C88CC1896A06F00E6C5AA /* RMDBManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RMDBManager.h; path = Database/RMDBManager.h; sourceTree = "<group>"; };
+		919C88CD1896A06F00E6C5AA /* RMDBManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RMDBManager.m; path = Database/RMDBManager.m; sourceTree = "<group>"; };
+		919C88D01896A0A600E6C5AA /* RentalMoney.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RentalMoney.xcdatamodel; sourceTree = "<group>"; };
+		919C88D51896A52B00E6C5AA /* RMRentalDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RMRentalDataManager.h; path = Database/RMRentalDataManager.h; sourceTree = "<group>"; };
+		919C88D61896A52B00E6C5AA /* RMRentalDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RMRentalDataManager.m; path = Database/RMRentalDataManager.m; sourceTree = "<group>"; };
+		919C88D81896AF4E00E6C5AA /* RMRentalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RMRentalViewController.h; path = ViewController/RMRentalViewController.h; sourceTree = "<group>"; };
+		919C88D91896AF4E00E6C5AA /* RMRentalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RMRentalViewController.m; path = ViewController/RMRentalViewController.m; sourceTree = "<group>"; };
+		919C88DD1896AFBC00E6C5AA /* RMBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RMBaseViewController.h; path = BaseViewController/RMBaseViewController.h; sourceTree = "<group>"; };
+		919C88DE1896AFBC00E6C5AA /* RMBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RMBaseViewController.m; path = BaseViewController/RMBaseViewController.m; sourceTree = "<group>"; };
+		919C88E11896B42400E6C5AA /* RMRentalListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RMRentalListViewController.h; path = ViewController/RMRentalListViewController.h; sourceTree = "<group>"; };
+		919C88E21896B42400E6C5AA /* RMRentalListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RMRentalListViewController.m; path = ViewController/RMRentalListViewController.m; sourceTree = "<group>"; };
+		919C88E51896B6F500E6C5AA /* RMRentalCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RMRentalCell.h; path = UITableViewCell/RMRentalCell.h; sourceTree = "<group>"; };
+		919C88E61896B6F500E6C5AA /* RMRentalCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RMRentalCell.m; path = UITableViewCell/RMRentalCell.m; sourceTree = "<group>"; };
+		919C88EB1896B9C200E6C5AA /* Rental.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Rental.h; path = Database/Rental.h; sourceTree = "<group>"; };
+		919C88EC1896B9C200E6C5AA /* Rental.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Rental.m; path = Database/Rental.m; sourceTree = "<group>"; };
+		919C88EF1896BCF800E6C5AA /* maru.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = maru.png; path = Resources/Image/maru.png; sourceTree = "<group>"; };
+		919C88F31898139000E6C5AA /* MCSwipeTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCSwipeTableViewCell.h; sourceTree = "<group>"; };
+		919C88F41898139000E6C5AA /* MCSwipeTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCSwipeTableViewCell.m; sourceTree = "<group>"; };
+		919C88F61898237600E6C5AA /* check.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = check.png; path = Resources/Image/check.png; sourceTree = "<group>"; };
+		919C88F71898237600E6C5AA /* check@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "check@2x.png"; path = "Resources/Image/check@2x.png"; sourceTree = "<group>"; };
+		919C88F81898237600E6C5AA /* clock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = clock.png; path = Resources/Image/clock.png; sourceTree = "<group>"; };
+		919C88F91898237600E6C5AA /* clock@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "clock@2x.png"; path = "Resources/Image/clock@2x.png"; sourceTree = "<group>"; };
+		919C88FA1898237600E6C5AA /* cross.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cross.png; path = Resources/Image/cross.png; sourceTree = "<group>"; };
+		919C88FB1898237600E6C5AA /* cross@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "cross@2x.png"; path = "Resources/Image/cross@2x.png"; sourceTree = "<group>"; };
+		919C88FC1898237600E6C5AA /* list.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = list.png; path = Resources/Image/list.png; sourceTree = "<group>"; };
+		919C88FD1898237600E6C5AA /* list@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "list@2x.png"; path = "Resources/Image/list@2x.png"; sourceTree = "<group>"; };
+		919C89061898D15700E6C5AA /* done.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = done.png; path = Resources/Image/done.png; sourceTree = "<group>"; };
+		91AC92F6189D163800D30011 /* rendButton22x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = rendButton22x.png; path = Resources/Image/rendButton22x.png; sourceTree = "<group>"; };
+		91AC92F8189D2A2800D30011 /* RMMoveUpSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RMMoveUpSegue.h; path = Segue/RMMoveUpSegue.h; sourceTree = "<group>"; };
+		91AC92F9189D2A2800D30011 /* RMMoveUpSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RMMoveUpSegue.m; path = Segue/RMMoveUpSegue.m; sourceTree = "<group>"; };
+		91AC92FB189D2AB600D30011 /* RMMoveUpAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RMMoveUpAnimation.h; path = Segue/RMMoveUpAnimation.h; sourceTree = "<group>"; };
+		91AC92FC189D2AB600D30011 /* RMMoveUpAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RMMoveUpAnimation.m; path = Segue/RMMoveUpAnimation.m; sourceTree = "<group>"; };
+		91AC92FF189D2D8D00D30011 /* UIImage+capture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImage+capture.h"; path = "Extends/UIImage+capture.h"; sourceTree = "<group>"; };
+		91AC9300189D2D8D00D30011 /* UIImage+capture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImage+capture.m"; path = "Extends/UIImage+capture.m"; sourceTree = "<group>"; };
+		91AC9302189D496100D30011 /* RMRentalEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RMRentalEntity.h; path = Database/RMRentalEntity.h; sourceTree = "<group>"; };
+		91AC9303189D496100D30011 /* RMRentalEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RMRentalEntity.m; path = Database/RMRentalEntity.m; sourceTree = "<group>"; };
+		91AC9305189D5A8A00D30011 /* NSDate+dateString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSDate+dateString.h"; path = "Extends/NSDate+dateString.h"; sourceTree = "<group>"; };
+		91AC9306189D5A8A00D30011 /* NSDate+dateString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSDate+dateString.m"; path = "Extends/NSDate+dateString.m"; sourceTree = "<group>"; };
+		91AC930B189D6A6B00D30011 /* thx@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "thx@2x.png"; path = "Resources/Image/thx@2x.png"; sourceTree = "<group>"; };
+		91AC930D189D713800D30011 /* UIImage+ImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImage+ImageEffects.h"; path = "Extends/UIImage+ImageEffects.h"; sourceTree = "<group>"; };
+		91AC930E189D713800D30011 /* UIImage+ImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImage+ImageEffects.m"; path = "Extends/UIImage+ImageEffects.m"; sourceTree = "<group>"; };
+		91AC9310189DD35900D30011 /* UIScreen+rect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIScreen+rect.h"; path = "Extends/UIScreen+rect.h"; sourceTree = "<group>"; };
+		91AC9311189DD35900D30011 /* UIScreen+rect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIScreen+rect.m"; path = "Extends/UIScreen+rect.m"; sourceTree = "<group>"; };
+		91AC9313189DD7FE00D30011 /* DateBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = DateBackground.png; path = Resources/Image/DateBackground.png; sourceTree = "<group>"; };
+		91AC9315189DE35700D30011 /* topBackground.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = topBackground.jpg; path = Resources/Image/topBackground.jpg; sourceTree = "<group>"; };
+		91AC9317189DE5A800D30011 /* rendButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "rendButton@2x.png"; path = "Resources/Image/rendButton@2x.png"; sourceTree = "<group>"; };
+		91B7CD36189FCFB50043B083 /* DateBackgroundEnd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = DateBackgroundEnd.png; path = Resources/Image/DateBackgroundEnd.png; sourceTree = "<group>"; };
+		91B7CD38189FDB7D0043B083 /* DateBackgroundEndHour@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "DateBackgroundEndHour@2x.png"; path = "Resources/Image/DateBackgroundEndHour@2x.png"; sourceTree = "<group>"; };
+		91B7CD39189FDB7D0043B083 /* DateBackgroundEndMonth@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "DateBackgroundEndMonth@2x.png"; path = "Resources/Image/DateBackgroundEndMonth@2x.png"; sourceTree = "<group>"; };
+		91B7CD3A189FDB7D0043B083 /* DateBackgroundEndNext@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "DateBackgroundEndNext@2x.png"; path = "Resources/Image/DateBackgroundEndNext@2x.png"; sourceTree = "<group>"; };
+		91B7CD3B189FDB7D0043B083 /* DateBackgroundEndSoon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "DateBackgroundEndSoon@2x.png"; path = "Resources/Image/DateBackgroundEndSoon@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +206,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				919B216618A3EF07004B30C0 /* SystemConfiguration.framework in Frameworks */,
+				919B215C18A2A307004B30C0 /* AdSupport.framework in Frameworks */,
+				919B215A18A2A2FB004B30C0 /* Security.framework in Frameworks */,
+				919C88CA18969FB800E6C5AA /* CoreData.framework in Frameworks */,
 				919C88971894CDAB00E6C5AA /* CoreGraphics.framework in Frameworks */,
+				919B215718A2A2C6004B30C0 /* libNendAd.a in Frameworks */,
 				919C88991894CDAB00E6C5AA /* UIKit.framework in Frameworks */,
+				919B216218A3B536004B30C0 /* libFlurry_4.3.1.a in Frameworks */,
 				919C88951894CDAB00E6C5AA /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -79,6 +231,55 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		912454E31899097C009DABCD /* segue */ = {
+			isa = PBXGroup;
+			children = (
+				912454E41899099E009DABCD /* RMRentalSegue.h */,
+				912454E51899099E009DABCD /* RMRentalSegue.m */,
+				91AC92F8189D2A2800D30011 /* RMMoveUpSegue.h */,
+				91AC92F9189D2A2800D30011 /* RMMoveUpSegue.m */,
+				912454E718991249009DABCD /* RMRentalAnimationController.h */,
+				912454E818991249009DABCD /* RMRentalAnimationController.m */,
+				91AC92FB189D2AB600D30011 /* RMMoveUpAnimation.h */,
+				91AC92FC189D2AB600D30011 /* RMMoveUpAnimation.m */,
+				919B214418A1F0A3004B30C0 /* RMBlurDarkSegue.h */,
+				919B214518A1F0A3004B30C0 /* RMBlurDarkSegue.m */,
+			);
+			name = segue;
+			sourceTree = "<group>";
+		};
+		919B214718A1F7D8004B30C0 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				919B214818A1F7F2004B30C0 /* RMConfigViewController.h */,
+				919B214918A1F7F2004B30C0 /* RMConfigViewController.m */,
+				919B214B18A293EB004B30C0 /* RMContactViewController.h */,
+				919B214C18A293EB004B30C0 /* RMContactViewController.m */,
+			);
+			name = Config;
+			sourceTree = "<group>";
+		};
+		919B215118A2A2C6004B30C0 /* NendAd */ = {
+			isa = PBXGroup;
+			children = (
+				919B215218A2A2C6004B30C0 /* libNendAd.a */,
+				919B215318A2A2C6004B30C0 /* NADIconLoader.h */,
+				919B215418A2A2C6004B30C0 /* NADIconView.h */,
+				919B215518A2A2C6004B30C0 /* NADView.h */,
+				919B215618A2A2C6004B30C0 /* NADView_readme.txt */,
+			);
+			path = NendAd;
+			sourceTree = "<group>";
+		};
+		919B215F18A3B3DA004B30C0 /* Flurry */ = {
+			isa = PBXGroup;
+			children = (
+				919B216018A3B536004B30C0 /* Flurry.h */,
+				919B216118A3B536004B30C0 /* libFlurry_4.3.1.a */,
+			);
+			name = Flurry;
+			sourceTree = "<group>";
+		};
 		919C88881894CDAB00E6C5AA = {
 			isa = PBXGroup;
 			children = (
@@ -101,6 +302,11 @@
 		919C88931894CDAB00E6C5AA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				919B216518A3EF07004B30C0 /* SystemConfiguration.framework */,
+				919B216318A3EEB5004B30C0 /* Social.framework */,
+				919B215B18A2A307004B30C0 /* AdSupport.framework */,
+				919B215918A2A2FB004B30C0 /* Security.framework */,
+				919C88C918969FB800E6C5AA /* CoreData.framework */,
 				919C88941894CDAB00E6C5AA /* Foundation.framework */,
 				919C88961894CDAB00E6C5AA /* CoreGraphics.framework */,
 				919C88981894CDAB00E6C5AA /* UIKit.framework */,
@@ -112,11 +318,16 @@
 		919C889A1894CDAB00E6C5AA /* RentalMoney */ = {
 			isa = PBXGroup;
 			children = (
+				91AC92FE189D2D6400D30011 /* Extends */,
+				912454E31899097C009DABCD /* segue */,
+				919C88F11898135A00E6C5AA /* External */,
+				919C88EE1896BCEB00E6C5AA /* Image */,
+				919C88E41896B6CC00E6C5AA /* Cell */,
+				919C88DB1896AF8C00E6C5AA /* ViewController */,
+				919C88CB1896A02C00E6C5AA /* Database */,
 				919C88A31894CDAB00E6C5AA /* RMAppDelegate.h */,
 				919C88A41894CDAB00E6C5AA /* RMAppDelegate.m */,
 				919C88A61894CDAB00E6C5AA /* Main.storyboard */,
-				919C88A91894CDAB00E6C5AA /* RMViewController.h */,
-				919C88AA1894CDAB00E6C5AA /* RMViewController.m */,
 				919C88AC1894CDAB00E6C5AA /* Images.xcassets */,
 				919C889B1894CDAB00E6C5AA /* Supporting Files */,
 			);
@@ -150,6 +361,163 @@
 				919C88BC1894CDAB00E6C5AA /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		919C88CB1896A02C00E6C5AA /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				919C88CC1896A06F00E6C5AA /* RMDBManager.h */,
+				919C88CD1896A06F00E6C5AA /* RMDBManager.m */,
+				919C88D51896A52B00E6C5AA /* RMRentalDataManager.h */,
+				919C88D61896A52B00E6C5AA /* RMRentalDataManager.m */,
+				919C88CF1896A0A600E6C5AA /* RentalMoney.xcdatamodeld */,
+				919C88EB1896B9C200E6C5AA /* Rental.h */,
+				919C88EC1896B9C200E6C5AA /* Rental.m */,
+				91AC9302189D496100D30011 /* RMRentalEntity.h */,
+				91AC9303189D496100D30011 /* RMRentalEntity.m */,
+			);
+			name = Database;
+			sourceTree = "<group>";
+		};
+		919C88DB1896AF8C00E6C5AA /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				919C88E01896AFC600E6C5AA /* RentalViewController */,
+				919C88DC1896AF9D00E6C5AA /* BaseViewController */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		919C88DC1896AF9D00E6C5AA /* BaseViewController */ = {
+			isa = PBXGroup;
+			children = (
+				919C88DD1896AFBC00E6C5AA /* RMBaseViewController.h */,
+				919C88DE1896AFBC00E6C5AA /* RMBaseViewController.m */,
+			);
+			name = BaseViewController;
+			sourceTree = "<group>";
+		};
+		919C88E01896AFC600E6C5AA /* RentalViewController */ = {
+			isa = PBXGroup;
+			children = (
+				919B214718A1F7D8004B30C0 /* Config */,
+				91AC930A189D642600D30011 /* List */,
+				91AC9309189D641900D30011 /* Top */,
+				91AC9308189D640100D30011 /* Input */,
+			);
+			name = RentalViewController;
+			sourceTree = "<group>";
+		};
+		919C88E41896B6CC00E6C5AA /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				919C88E51896B6F500E6C5AA /* RMRentalCell.h */,
+				919C88E61896B6F500E6C5AA /* RMRentalCell.m */,
+			);
+			name = Cell;
+			sourceTree = "<group>";
+		};
+		919C88EE1896BCEB00E6C5AA /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				919B215D18A33DD7004B30C0 /* batsu.png */,
+				919B214218A14860004B30C0 /* setting@2x.png */,
+				919B214018A14363004B30C0 /* shake@2x.png */,
+				91B7CD38189FDB7D0043B083 /* DateBackgroundEndHour@2x.png */,
+				91B7CD39189FDB7D0043B083 /* DateBackgroundEndMonth@2x.png */,
+				91B7CD3A189FDB7D0043B083 /* DateBackgroundEndNext@2x.png */,
+				91B7CD3B189FDB7D0043B083 /* DateBackgroundEndSoon@2x.png */,
+				91AC9317189DE5A800D30011 /* rendButton@2x.png */,
+				91AC9315189DE35700D30011 /* topBackground.jpg */,
+				91AC9313189DD7FE00D30011 /* DateBackground.png */,
+				91AC930B189D6A6B00D30011 /* thx@2x.png */,
+				91AC92F6189D163800D30011 /* rendButton22x.png */,
+				916A33EF189CE83400C0C32B /* background@2x.png */,
+				912454EE189B518D009DABCD /* 100.jpg */,
+				912454EF189B518D009DABCD /* 500.jpg */,
+				912454F0189B518D009DABCD /* 1000.jpg */,
+				912454F1189B518D009DABCD /* 10000.jpg */,
+				919C89061898D15700E6C5AA /* done.png */,
+				919C88F61898237600E6C5AA /* check.png */,
+				919C88F71898237600E6C5AA /* check@2x.png */,
+				919C88F81898237600E6C5AA /* clock.png */,
+				919C88F91898237600E6C5AA /* clock@2x.png */,
+				919C88FA1898237600E6C5AA /* cross.png */,
+				919C88FB1898237600E6C5AA /* cross@2x.png */,
+				919C88FC1898237600E6C5AA /* list.png */,
+				919C88FD1898237600E6C5AA /* list@2x.png */,
+				919C88EF1896BCF800E6C5AA /* maru.png */,
+			);
+			name = Image;
+			sourceTree = "<group>";
+		};
+		919C88F11898135A00E6C5AA /* External */ = {
+			isa = PBXGroup;
+			children = (
+				919B215F18A3B3DA004B30C0 /* Flurry */,
+				919B215118A2A2C6004B30C0 /* NendAd */,
+				919C88F21898139000E6C5AA /* MCSwipeTableViewCell */,
+			);
+			name = External;
+			sourceTree = "<group>";
+		};
+		919C88F21898139000E6C5AA /* MCSwipeTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				919C88F31898139000E6C5AA /* MCSwipeTableViewCell.h */,
+				919C88F41898139000E6C5AA /* MCSwipeTableViewCell.m */,
+			);
+			name = MCSwipeTableViewCell;
+			path = External/MCSwipeTableViewCell;
+			sourceTree = "<group>";
+		};
+		91AC92FE189D2D6400D30011 /* Extends */ = {
+			isa = PBXGroup;
+			children = (
+				919B214E18A29984004B30C0 /* NSDictionary+URLEncoding.h */,
+				919B214F18A29984004B30C0 /* NSDictionary+URLEncoding.m */,
+				91B7CD36189FCFB50043B083 /* DateBackgroundEnd.png */,
+				91AC930D189D713800D30011 /* UIImage+ImageEffects.h */,
+				91AC930E189D713800D30011 /* UIImage+ImageEffects.m */,
+				91AC92FF189D2D8D00D30011 /* UIImage+capture.h */,
+				91AC9300189D2D8D00D30011 /* UIImage+capture.m */,
+				91AC9305189D5A8A00D30011 /* NSDate+dateString.h */,
+				91AC9306189D5A8A00D30011 /* NSDate+dateString.m */,
+				91AC9310189DD35900D30011 /* UIScreen+rect.h */,
+				91AC9311189DD35900D30011 /* UIScreen+rect.m */,
+			);
+			name = Extends;
+			sourceTree = "<group>";
+		};
+		91AC9308189D640100D30011 /* Input */ = {
+			isa = PBXGroup;
+			children = (
+				912454EB189A4BFF009DABCD /* RMInputViewController.h */,
+				912454EC189A4BFF009DABCD /* RMInputViewController.m */,
+				912454F6189B5B70009DABCD /* RMSubmitDateViewController.h */,
+				912454F7189B5B70009DABCD /* RMSubmitDateViewController.m */,
+				919C88D81896AF4E00E6C5AA /* RMRentalViewController.h */,
+				919C88D91896AF4E00E6C5AA /* RMRentalViewController.m */,
+			);
+			name = Input;
+			sourceTree = "<group>";
+		};
+		91AC9309189D641900D30011 /* Top */ = {
+			isa = PBXGroup;
+			children = (
+				919C88A91894CDAB00E6C5AA /* RMViewController.h */,
+				919C88AA1894CDAB00E6C5AA /* RMViewController.m */,
+			);
+			name = Top;
+			sourceTree = "<group>";
+		};
+		91AC930A189D642600D30011 /* List */ = {
+			isa = PBXGroup;
+			children = (
+				919C88E11896B42400E6C5AA /* RMRentalListViewController.h */,
+				919C88E21896B42400E6C5AA /* RMRentalListViewController.m */,
+			);
+			name = List;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -200,6 +568,9 @@
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = ktsukago;
 				TargetAttributes = {
+					919C88901894CDAB00E6C5AA = {
+						DevelopmentTeam = SG8DJN4ZP4;
+					};
 					919C88B11894CDAB00E6C5AA = {
 						TestTargetID = 919C88901894CDAB00E6C5AA;
 					};
@@ -229,9 +600,38 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				912454F3189B518D009DABCD /* 500.jpg in Resources */,
+				919C89021898237600E6C5AA /* cross.png in Resources */,
+				919B215818A2A2C6004B30C0 /* NADView_readme.txt in Resources */,
+				919C88F01896BCF800E6C5AA /* maru.png in Resources */,
+				91AC9316189DE35700D30011 /* topBackground.jpg in Resources */,
+				919C89071898D15700E6C5AA /* done.png in Resources */,
+				91B7CD37189FCFB50043B083 /* DateBackgroundEnd.png in Resources */,
+				919C88FE1898237600E6C5AA /* check.png in Resources */,
 				919C88AD1894CDAB00E6C5AA /* Images.xcassets in Resources */,
+				91AC92F7189D163800D30011 /* rendButton22x.png in Resources */,
+				91B7CD3E189FDB7D0043B083 /* DateBackgroundEndNext@2x.png in Resources */,
+				919C89051898237600E6C5AA /* list@2x.png in Resources */,
+				91AC9314189DD7FE00D30011 /* DateBackground.png in Resources */,
 				919C889F1894CDAB00E6C5AA /* InfoPlist.strings in Resources */,
+				912454F4189B518D009DABCD /* 1000.jpg in Resources */,
+				912454F2189B518D009DABCD /* 100.jpg in Resources */,
+				91AC9318189DE5A800D30011 /* rendButton@2x.png in Resources */,
+				916A33F0189CE83400C0C32B /* background@2x.png in Resources */,
+				919C89031898237600E6C5AA /* cross@2x.png in Resources */,
 				919C88A81894CDAB00E6C5AA /* Main.storyboard in Resources */,
+				919C89011898237600E6C5AA /* clock@2x.png in Resources */,
+				91B7CD3D189FDB7D0043B083 /* DateBackgroundEndMonth@2x.png in Resources */,
+				919C89001898237600E6C5AA /* clock.png in Resources */,
+				919C89041898237600E6C5AA /* list.png in Resources */,
+				91B7CD3C189FDB7D0043B083 /* DateBackgroundEndHour@2x.png in Resources */,
+				919C88FF1898237600E6C5AA /* check@2x.png in Resources */,
+				919B214118A14363004B30C0 /* shake@2x.png in Resources */,
+				919B215E18A33DD7004B30C0 /* batsu.png in Resources */,
+				91B7CD3F189FDB7D0043B083 /* DateBackgroundEndSoon@2x.png in Resources */,
+				912454F5189B518D009DABCD /* 10000.jpg in Resources */,
+				91AC930C189D6A6B00D30011 /* thx@2x.png in Resources */,
+				919B214318A14860004B30C0 /* setting@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,9 +650,33 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				91AC9312189DD35900D30011 /* UIScreen+rect.m in Sources */,
+				919C88D71896A52B00E6C5AA /* RMRentalDataManager.m in Sources */,
+				91AC92FA189D2A2800D30011 /* RMMoveUpSegue.m in Sources */,
+				919B214618A1F0A3004B30C0 /* RMBlurDarkSegue.m in Sources */,
+				919C88CE1896A06F00E6C5AA /* RMDBManager.m in Sources */,
 				919C88A11894CDAB00E6C5AA /* main.m in Sources */,
+				91AC930F189D713800D30011 /* UIImage+ImageEffects.m in Sources */,
+				919C88DF1896AFBC00E6C5AA /* RMBaseViewController.m in Sources */,
+				919B215018A29984004B30C0 /* NSDictionary+URLEncoding.m in Sources */,
+				919C88F51898139000E6C5AA /* MCSwipeTableViewCell.m in Sources */,
+				912454ED189A4C00009DABCD /* RMInputViewController.m in Sources */,
+				919B214A18A1F7F2004B30C0 /* RMConfigViewController.m in Sources */,
 				919C88A51894CDAB00E6C5AA /* RMAppDelegate.m in Sources */,
+				91AC9307189D5A8A00D30011 /* NSDate+dateString.m in Sources */,
+				912454F8189B5B70009DABCD /* RMSubmitDateViewController.m in Sources */,
+				919C88D11896A0A600E6C5AA /* RentalMoney.xcdatamodeld in Sources */,
+				919C88E31896B42400E6C5AA /* RMRentalListViewController.m in Sources */,
+				919B214D18A293EB004B30C0 /* RMContactViewController.m in Sources */,
+				91AC92FD189D2AB600D30011 /* RMMoveUpAnimation.m in Sources */,
+				912454E61899099E009DABCD /* RMRentalSegue.m in Sources */,
+				91AC9304189D496100D30011 /* RMRentalEntity.m in Sources */,
+				91AC9301189D2D8D00D30011 /* UIImage+capture.m in Sources */,
+				919C88ED1896B9C200E6C5AA /* Rental.m in Sources */,
+				919C88E71896B6F500E6C5AA /* RMRentalCell.m in Sources */,
 				919C88AB1894CDAB00E6C5AA /* RMViewController.m in Sources */,
+				919C88DA1896AF4E00E6C5AA /* RMRentalViewController.m in Sources */,
+				912454E918991249009DABCD /* RMRentalAnimationController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -379,10 +803,18 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "RentalMoney/RentalMoney-Prefix.pch";
 				INFOPLIST_FILE = "RentalMoney/RentalMoney-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/tskgsh_ksk/Dev/untitled\\ folder/RentalMoney/RentalMoney/NendAd",
+					"/Users/tskgsh_ksk/Dev/untitled\\ folder/RentalMoney/RentalMoney/External/Flurry",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "778D8206-1F41-44A4-8502-8AB293616679";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -392,10 +824,18 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: KEISUKE TSUKAGOSHI (SG8DJN4ZP4)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: KEISUKE TSUKAGOSHI (SG8DJN4ZP4)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "RentalMoney/RentalMoney-Prefix.pch";
 				INFOPLIST_FILE = "RentalMoney/RentalMoney-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/tskgsh_ksk/Dev/untitled\\ folder/RentalMoney/RentalMoney/NendAd",
+					"/Users/tskgsh_ksk/Dev/untitled\\ folder/RentalMoney/RentalMoney/External/Flurry",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "778D8206-1F41-44A4-8502-8AB293616679";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -461,6 +901,7 @@
 				919C88C51894CDAB00E6C5AA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		919C88C61894CDAB00E6C5AA /* Build configuration list for PBXNativeTarget "RentalMoneyTests" */ = {
 			isa = XCConfigurationList;
@@ -469,8 +910,23 @@
 				919C88C81894CDAB00E6C5AA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		919C88CF1896A0A600E6C5AA /* RentalMoney.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				919C88D01896A0A600E6C5AA /* RentalMoney.xcdatamodel */,
+			);
+			currentVersion = 919C88D01896A0A600E6C5AA /* RentalMoney.xcdatamodel */;
+			name = RentalMoney.xcdatamodeld;
+			path = Database/RentalMoney.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 919C88891894CDAB00E6C5AA /* Project object */;
 }
